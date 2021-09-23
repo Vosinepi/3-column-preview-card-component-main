@@ -61,12 +61,22 @@ p {
 .sedans a {
   color: hsl(31, 77%, 52%);
 }
+.sedans a:hover {
+  color: var(--verylight-grey);
+}
+
 .suv a {
   color: hsl(184, 100%, 22%);
+}
+.suv a:hover {
+  color: var(--verylight-grey);
 }
 
 .luxury a {
   color: hsl(179, 100%, 13%);
+}
+.luxury a:hover {
+  color: var(--verylight-grey);
 }
 
 .content {
@@ -76,14 +86,21 @@ p {
 .learn-more {
   font-family: 'Lexend Deca', sans-serif;
   display: inline-block;
+  box-sizing: border-box;
   background: var(--verylight-grey);
+  border:1px solid;
   text-align: center;
   font-size: 12px;
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 10px;
   border-radius: 30px;
   text-decoration: none;
+}
+
+.learn-more:hover {
+  background: rgba(0, 0, 0, 0.001);
+  border: 1px solid;
 }
 
 @media (max-width: 645px) {
