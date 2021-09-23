@@ -33,7 +33,7 @@ p {
 }
 .card {
   display: flex;
-  margin: 50px 0px 0px 0px;
+  margin: 250px 0px 0px 0px;
   justify-content:center;
   align-items: center;
   border-radius: 20px;
